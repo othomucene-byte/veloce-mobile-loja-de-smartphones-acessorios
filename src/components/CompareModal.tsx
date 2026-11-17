@@ -1,0 +1,1 @@
+import React from 'react'; import { PhoneProduct } from '../types'; export const CompareModal: React.FC<{products: PhoneProduct[], onClose: () => void}> = ({ onClose }) => (<div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center"><div className="bg-white p-8 m-10 rounded-2xl"><h2>Comparativo</h2><button onClick={onClose}>Fechar</button></div></div>);
